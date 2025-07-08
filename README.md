@@ -1,5 +1,3 @@
-# spring-ai-sales-data-analysis
-
 # Spring AI Sales Analysis Chatbot
 This project is a Spring Boot application that allows you to upload an Excel file containing sales data and then chat with an AI assistant to analyze the data. It uses OpenAI's GPT models for the chat functionality and Postgres Vector as a local vector store.
 
@@ -37,7 +35,7 @@ Run the services using Docker Compose:
 
 docker-compose up --build
 
-This will start the Spring Boot application on port 8080 and the ChromaDB service on port 8000.
+This will start the Spring Boot application on port 8080 and the Postgres service on port 5432.
 
 How to Use
 Upload your data:
