@@ -1,6 +1,6 @@
 # spring-ai-sales-data-analysis
 
-Spring AI Sales Analysis Chatbot
+# Spring AI Sales Analysis Chatbot
 This project is a Spring Boot application that allows you to upload an Excel file containing sales data and then chat with an AI assistant to analyze the data. It uses OpenAI's GPT models for the chat functionality and Postgres Vector as a local vector store.
 
 Features
@@ -45,17 +45,17 @@ curl -X POST -F "file=@/path/to/your/sales_data.xlsx" http://localhost:8080/api/
 
 You should get a success message once the file is processed and ingested into the vector store.
 
-Chat with the AI:
+# Chat with the AI:
 Now you can send questions to the chat endpoint.
 
 curl -X POST -H "Content-Type: application/json" -d '{"query": "What were the total sales last month?"}' http://localhost:8080/api/chat
 
 The API will return a JSON response with the AI's answer.
 
-Example Questions to Ask Your Data
+# Example Questions to Ask Your Data
 Once you've uploaded your sales data, here are some examples of questions you can ask the chatbot. These are designed to showcase the analytical and recommendation capabilities of the system.
 
-Basic Data Retrieval
+# Basic Data Retrieval
 "What was the total revenue for the last quarter?"
 
 "Which product had the highest sales in January?"
@@ -64,7 +64,7 @@ Basic Data Retrieval
 
 "How many units of 'Product X' were sold in the 'North' region?"
 
-Trend Analysis
+# Trend Analysis
 "What is the sales trend for 'Product Y' over the last six months?"
 
 "Are sales increasing or decreasing for the 'Electronics' category?"
@@ -73,7 +73,7 @@ Trend Analysis
 
 "Compare the sales performance of the 'East' and 'West' regions."
 
-Deeper Insights & Analysis
+# Deeper Insights & Analysis
 "What are the key drivers of our sales growth?"
 
 "Which products are frequently sold together?" (Market Basket Analysis)
@@ -82,7 +82,7 @@ Deeper Insights & Analysis
 
 "What is the average deal size for sales made by 'John Doe'?"
 
-Recommendations & Strategic Questions
+# Recommendations & Strategic Questions
 "Based on recent trends, which products should we promote more aggressively?"
 
 "Suggest a marketing strategy for our lowest-performing products."
