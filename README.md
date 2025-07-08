@@ -3,6 +3,8 @@
 # Spring AI Sales Analysis Chatbot
 This project is a Spring Boot application that allows you to upload an Excel file containing sales data and then chat with an AI assistant to analyze the data. It uses OpenAI's GPT models for the chat functionality and Postgres Vector as a local vector store.
 
+![image](https://github.com/user-attachments/assets/3028a200-456b-44ee-8690-875efe4428cf)
+
 Features
 Upload Excel sales data.
 
